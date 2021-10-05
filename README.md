@@ -30,14 +30,15 @@ stFT.view(signal)
 ```python
 FT.viewComplex(signal)
 ```
-
+![Alt text](./img/complex.PNG "Complex Plane of the Discrete Fourier Transform")
 ```python
 wavelet.view(signal)
 ```
-
+![Alt text](./img/wavelet.PNG "Wavelet Coefficients as an image")
 ```python
 PS.view(signal)
 ```
+![Alt text](./img/powerspec.PNG "Power Spectrum")
 All graph objects for viewing may be found in the notebook ```visualizing-signal-trfms.ipynb```
 To obtain the transform as ndarray use ```__call__(signal)```:
 ```python
