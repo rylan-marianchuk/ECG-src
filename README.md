@@ -39,7 +39,7 @@ wavelet.view(signal)
 PS.view(signal)
 ```
 All graph objects for viewing may be found in the notebook ```visualizing-signal-trfms.ipynb```
-### To obtain the transform as ndarray use __call__(signal):
+To obtain the transform as ndarray use ```__call__(signal)```:
 ```python
 PS(signal)
 ```
