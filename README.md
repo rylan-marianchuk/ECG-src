@@ -21,12 +21,12 @@ Viewing the raw signal hosted at index 0
 signal = ds[0][0].numpy()
 ds.viewTrueSignal(idx=0)
 ```
-
+![Alt text](./img/raw-signal.PNG "Raw signal")
 Viewing all the implemeted transforms
 ```python
 stFT.view(signal)
 ```
-
+![Alt text](./img/stFT.PNG "Short-Time Fourier Transform")
 ```python
 FT.viewComplex(signal)
 ```
